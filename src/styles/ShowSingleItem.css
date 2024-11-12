@@ -1,0 +1,67 @@
+.back-arrow-image {
+    width: 30px; /* Set the width for the back arrow image */
+    height: auto;
+  }
+  
+  .item-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px; /* Add margin for spacing from the top */
+    text-align: left; /* Align title to the left */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; /* Add margin between title and image */
+  }
+  
+  .item-image {
+    width: 373px; /* Adjust the image width to fit within the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .item-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+    padding: 0 20px; /* Add padding for better spacing */
+  }
+  
+  .item-details p {
+    margin: 0;
+  }
+  
+  .item-price span,
+  .item-added span,
+  .item-updated span {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .item-updated {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+  }
+  .back-button-single {
+    background: none;       /* Remove background */
+    border: none;           /* Remove border */
+    padding: 0;             /* Remove padding */
+    cursor: pointer;       /* Make it clickable */
+    display: inline-block;  /* Ensure it behaves like a button */
+  }
+  
+  .back-button-single img {
+    width: 30px;  /* Adjust the size of the image */
+    height: auto;
+    display: block;  /* Remove any unwanted spacing around the image */
+  }
+  /* Optional: Remove any hover effect */
+.back-button-single:hover {
+    background: none;  /* Ensure no background effect on hover */
+  }

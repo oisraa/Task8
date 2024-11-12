@@ -1,0 +1,91 @@
+.sign-in-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #FEAF00 0%, #F8D442 100%);
+  }
+  
+  .sign-in-box {
+    width: 400px;
+    padding: 42px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ 
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 151px;
+    height: 41px;
+  }
+  
+  .logo span {
+    color: #F8D442;
+  }
+  
+  h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  p {
+    margin: 10px 0;
+    color: #666;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  .email-box {
+    margin-top: 50px; /* keeps the 50px margin above the email box */
+}
+
+.pass-box {
+    margin-bottom: 30px; /* keeps the 30px margin below the password box */
+}
+
+  .sign-in-button {
+    background-color: #FEAF00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .sign-in-button:hover {
+    background-color: #F8D442;
+  }
+  
+  a {
+    color: #FEAF00;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  

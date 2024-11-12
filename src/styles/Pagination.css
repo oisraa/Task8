@@ -1,0 +1,80 @@
+/* Pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 80px;
+  }
+  
+  /* Page number buttons */
+  .page-number {
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    border-radius: 50%; /* Circular shape */
+    font-size: 1rem;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#F1F1F1 ; /* Ensure no background */
+    color: inherit; /* Inherit the text color from the parent */
+  }
+  
+  .page-number:hover {
+    background-color: #ddd; /* Optional: Add hover effect */
+  }
+  
+  .page-number.active {
+    background-color: #FEAF00; /* Blue for active page */
+    color: white;
+  }
+  
+  .page-number.ellipsis {
+    background-color: #ddd;/* Ensure no background */
+    cursor: not-allowed;
+  }
+  
+  /* Ellipsis button style */
+  .page-number.ellipsis {
+    width: auto;
+    padding: 0 8px;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50%;
+  }
+  
+  /* Navigation arrows (left and right) */
+  .page-nav {
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 50%; /* Circular shape for the arrows */
+    font-size: 1.25rem;
+    width: 40px; /* Equal width and height for circular shape */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd; /* Ensure no background */
+  }
+  
+  .page-nav:hover {
+    background-color: #ddd; /* Optional: Add hover effect */
+  }
+  
+  .page-nav:disabled {
+    background: none; /* Ensure no background when disabled */
+    cursor: not-allowed;
+  }
+  
+  .page-nav span {
+    font-size: 1.25rem;
+  }
+  

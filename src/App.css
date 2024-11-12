@@ -1,0 +1,17 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography and Container Settings */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  margin: 0;
+  padding: 0;
+}

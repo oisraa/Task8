@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden; /* Disable scroll on the body */
+}
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #feaf00, #f8d442);
+
+}
+
+.sign-up-box {
+  width: 100%;
+  max-width: 476px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent internal overflow */
+}
+
+.sign-up-card {
+  background-color: white;
+  padding:42px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: block;
+  width: 120px;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 9px;
+  margin: 43px 0 9px;
+}
+
+p {
+  text-align: center;
+  color: #6C6C6C;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-size: 14px;
+  color: #6C6C6C;
+  margin-bottom: 8px;
+  margin-top: 16px;
+  font-weight: 500;
+  
+  
+}
+
+.input-row {
+  display: flex;
+  gap: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #feaf00;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #f8d442;
+}
+
+
+
+.upload-area {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-image: url('../assets/background.png');
+  background-size: cover;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #666;
+}
+
+.cloud-icon {
+  width: 40px;
+  height: 36px;
+}
+
+.preview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+

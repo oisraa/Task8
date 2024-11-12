@@ -1,0 +1,43 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 40px; /* Increase padding for a larger modal */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 400px; /* Increase width for larger content area */
+    max-width: 90%;
+  }
+  
+  .modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Increase gap between buttons */
+    margin-top: 30px;
+  }
+  
+  .btn-confirm, .btn-cancel {
+    background: #FEAF00; /* Set both buttons to #e6b800 */
+    color: white;
+    border: none;
+    padding: 12px 30px; /* Larger padding for bigger buttons */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Larger font size for bigger buttons */
+  }
+  
+  .btn-confirm:hover, .btn-cancel:hover {
+    background: #FEAF00; /* Slightly darker color on hover */
+  }
